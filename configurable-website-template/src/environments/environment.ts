@@ -7,7 +7,7 @@ export const environment = {
 
   // Template header configuration
   headerIcon: 'photo_camera',
-  headerTitle: 'Sample Title'
+  headerTitle: 'Sample Title',
 
 };
 

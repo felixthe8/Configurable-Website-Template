@@ -1,0 +1,11 @@
+<div class="topnav">
+    <!-- Home link will automatically be highlighted when the application loads -->
+    <a [routerLink] ="['/']" routerLinkActive="is-active" [routerLinkActiveOptions]="routerLinkOptions">Home</a>
+
+    <!-- Additional links are just placeholders. Make sure to change names and router link 
+        declarations. Highlighting will automatically be done via the `is-active` class
+    -->
+    <a [routerLink]="['/secondary']" routerLinkActive="is-active" [routerLinkActiveOptions]="routerLinkOptions">Secondary</a>
+    <a [routerLink]="['/tertiary']" routerLinkActive="is-active" [routerLinkActiveOptions]="routerLinkOptions">Tertiary</a>
+    <a [routerLink]="['/quatenary']" routerLinkActive="is-active" [routerLinkActiveOptions]="routerLinkOptions">Quatenary</a>
+</div>
